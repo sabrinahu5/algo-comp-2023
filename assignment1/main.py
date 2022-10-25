@@ -23,7 +23,7 @@ def compute_score(user1, user2):
     grade_weight = 5
     responses_weight = 2
 
-    # if not match return, but trying not to be too homophobic
+    # if not match return
     if user1.gender == user2.gender:
         return 0.01
 
